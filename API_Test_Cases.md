@@ -120,11 +120,12 @@ Verify login fails with invalid credentials.
 API is available
 
 **Request Body:**
+```json
 {
   "username": "wrong_user",
   "password": "wrong_pass"
 }
-
+```
 **Steps:**
 1. Send POST request with invalid credentials
 
@@ -144,11 +145,11 @@ Verify login fails when username is missing.
 API is available
 
 **Request Body:**
-
+```json
 {
   "password": "83r5^_"
 }
-
+```
 **Steps:**
 1. Send POST request without username
 
@@ -168,11 +169,11 @@ Verify login fails when password is missing.
 API is available
 
 **Request Body:**
-
+```json
 {
   "username": "mor_2314"
 }
-
+```
 **Steps:**
 1. Send POST request without password
 
