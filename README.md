@@ -2,11 +2,16 @@
 
 This project demonstrates API testing using Postman.
 
+## Note
+FakeStore API was restricted for Postman requests.
+Execution was performed using DummyJSON API for demonstration
+
  ## Project Objective 
  The goal of this project is to demonstrate API testing skills using Postman, including validation of API responses, status codes, and JSON structure.
 
 ## API under test
-https://fakestoreapi.com/
+- Primary API: https://dummyjson.com/
+- Original API: https://fakestoreapi.com/
 
 ## Testing Scope
 - Validate API status codes
@@ -32,12 +37,12 @@ https://fakestoreapi.com/
 
   ## How to Run the Tests
   1. Import the Postman collection into Postman.
-  2. Use the base URL: https://fakestoreapi.com
+  2. Use the base URL:https://dummyjson.com/
   3. Execute the API requests.
   4. Validate the responses.
 
   ## Author
-  Anastasia Dragoman
+  Anastasia Dragoman - QA Engineer
   QA Tester | Manual Testing | API Testing | Postman | SQL
      
      
