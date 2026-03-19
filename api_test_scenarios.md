@@ -11,4 +11,4 @@
 | TS07 | Login API | Verify login fails with invalid credentials | Medium |
 | TS08 | Login API | Verify login fails when username is missing | Medium |
 | TS09 | Login API | Verify login fails when password is missing | Medium |
-| TS10 | API Responce | Verify API returns status code 200 for successful requests | High |
+| TS10 | API Responce | Verify successful API request returns status code 200 | High |
